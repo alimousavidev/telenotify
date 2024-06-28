@@ -1,0 +1,30 @@
+{
+    "name": "alimousavi/telenotify",
+    "description": "A Laravel package for sending notifications via Telegram.",
+    "type": "library",
+    "homepage": "https://github.com/alimousavidev/telenotify",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Mousavi",
+            "email": "hello@alimousavi.dev"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AliMousavi\\TeleNotify\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AliMousavi\\TeleNotify\\TeleNotifyServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": ">=8.0"
+    }
+}
